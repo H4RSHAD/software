@@ -71,13 +71,15 @@ git add .
 git config --global user.email "aquituemail@algo.com"
 git config --global user.name "aquitunombredesuario"
 
+
+
 git commit -m "comentario de lo que realizaste"
 
 
---- subir a repositorio
+--- subir a repositorio esto se hace una vez 
 git remote add origin https://nombredelrepositorio.git
 
---subir a la rama master
+--subir a la rama master, esto se utiliza para subir la primera vez cuando tu repositorio esta en blanco
 git push -u origin master
 
 
