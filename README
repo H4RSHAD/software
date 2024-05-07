@@ -46,7 +46,9 @@ proyecto_flask/
 
  .\env\Scripts\activate.bat
 
-pip install Flask Flask-SQLAlchemy Flask-Migrate psycopg2 python-dotenv
+pip install -r requirements.txt
+
+      esto es lo que instale, no es necesario hacerlo: pip install Flask Flask-SQLAlchemy Flask-Migrate psycopg2 python-dotenv
 '''
 
 #Migrar base de datos
@@ -66,8 +68,8 @@ git status
 git add .
 
 -- esto solo se hace la primera vez
-git config --global user.email
-git config --global user.name
+git config --global user.email "aquituemail@algo.com"
+git config --global user.name "aquitunombredesuario"
 
 git commit -m "comentario de lo que realizaste"
 
