@@ -10,6 +10,7 @@ LenguaStream AI, es un software SaaS, para la Transcripcion y/o Traducción de C
 
 ## Estructura del proyecto
 
+```
 software/  
 ├── proyecto/  
 │   ├── controllers/  
@@ -34,7 +35,7 @@ software/
 ├── requirements.txt  
 ├── config 
 
-
+```
 
 ----
 
